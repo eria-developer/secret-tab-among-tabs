@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "secret-tab-among-tabs",
-    "slug": "secret-tab-among-tabs",
+    "name": "secret-tab",
+    "slug": "secret-tab",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.talemwa_eria.secrettab"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "30feffcb-650d-41a9-9104-34bf35482c0b"
+      }
     }
   }
 }
